@@ -7,7 +7,7 @@ int main()
    int i;
    int sum=0;
    
-   cout<<"Enter 10 Array Elements:- ";
+   cout<<"Enter 10 Array Elements: ";
    for(i=0; i<10; i++){
    	cin>>array[i];
    }
@@ -17,7 +17,7 @@ int main()
    	sum += array[i];
    }
 
-   cout<<endl<<"The Sum of all the elements in an array is:- "<<sum;
+   cout<<endl<<"The Sum of all the elements in an array is: "<<sum;
    
    return 0;
 }
